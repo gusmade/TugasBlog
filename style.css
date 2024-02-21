@@ -1,0 +1,108 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style untuk navbar */
+.navbar {
+    display: flex;
+    justify-content: center; /* Untuk menengahkan menu navbar */
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Style untuk daftar menu */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style untuk setiap menu */
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Style untuk tautan menu */
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Style untuk tautan menu saat dihover */
+.navbar a:hover {
+    background-color: #555;
+}
+/* Style untuk header */
+.header {
+    color: #fff;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+/* Style untuk daftar posting blog */
+.blog-list {
+    margin-top: 20px;
+}
+
+/* Style untuk posting blog */
+.blog-post {
+    margin-bottom: 40px;
+}
+
+/* Style untuk judul posting */
+.post-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style untuk tanggal posting */
+.post-date {
+    color: #999;
+}
+
+/* Style untuk cuplikan isi posting */
+.post-excerpt {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Style untuk komentar */
+.comments {
+    margin-top: 20px;
+}
+
+/* Style untuk nama pengirim komentar */
+.comment-author {
+    font-weight: bold;
+}
+
+/* Style untuk tanggal komentar */
+.comment-date {
+    color: #999;
+}
+
+/* Style untuk isi komentar */
+.comment-content {
+    margin-top: 5px;
+}
+/* Style untuk sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: fixed;
+    top: 450px;
+    left: 1300px;
+    height: 40%;
+}
+.comment{
+    padding: 0px;
+    margin-left: 90px;
+    margin-right: 900px;
+}

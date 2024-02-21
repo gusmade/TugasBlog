@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Blog Pribadi</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="#">Layanan</a></li>
+        <li><a href="#">Kontak</a></li>
+      </ul>
+    </div>
+    <br />
+    <!-- Header -->
+    <div class="header bg-dark">
+      <h1>Blog Pribadi</h1>
+      <br />
+      <h2>Kontak Kami</h2>
+    </div>
+    <!-- Konten Utama -->
+    <div class="main-content">
+      <h1>Konten Utama</h1>
+      <p>Ini adalah konten utama dari halaman.</p>
+    </div>
+    <!-- Konten Blog -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="blog-list">
+            <!-- Posting Blog Pertama -->
+            <div class="blog-post">
+              <h2 class="post-title">Judul Posting Pertama</h2>
+              <p class="post-date">Tanggal: 1 Januari 2023</p>
+              <p class="post-excerpt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                ut leo sollicitudin, sodales elit sit amet, ultrices risus.
+                Nulla facilisi. Fusce vitae leo ut velit condimentum rutrum nec
+                id turpis. In hac habitasse platea dictumst. Ut vestibulum eget
+                lacus ac dapibus. Ut interdum placerat enim, id tincidunt nisl
+                consequat nec. Donec hendrerit libero non mi lobortis, id varius
+                nunc sagittis. Nunc eget convallis nisl. Pellentesque habitant
+                morbi tristique senectus et netus et malesuada fames ac turpis
+                egestas. Morbi efficitur, metus vitae vehicula fermentum, nibh
+                neque convallis felis, non sodales ex leo nec velit. Integer
+                lacinia fermentum nisl.
+              </p>
+              <a href="single-post.html" class="btn btn-primary"
+                >Baca Selengkapnya</a
+              >
+            </div>
+
+            <!-- Posting Blog Kedua -->
+            <div class="blog-post">
+              <h2 class="post-title">Judul Posting Kedua</h2>
+              <p class="post-date">Tanggal: 5 Februari 2023</p>
+              <p class="post-excerpt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                ut leo sollicitudin, sodales elit sit amet, ultrices risus.
+                Nulla facilisi. Fusce vitae leo ut velit condimentum rutrum nec
+                id turpis. In hac habitasse platea dictumst. Ut vestibulum eget
+                lacus ac dapibus. Ut interdum placerat enim, id tincidunt nisl
+                consequat nec. Donec hendrerit libero non mi lobortis, id varius
+                nunc sagittis. Nunc eget convallis nisl. Pellentesque habitant
+                morbi tristique senectus et netus et malesuada fames ac turpis
+                egestas. Morbi efficitur, metus vitae vehicula fermentum, nibh
+                neque convallis felis, non sodales ex leo nec velit. Integer
+                lacinia fermentum nisl.
+              </p>
+              <a href="single-post.html" class="btn btn-primary"
+                >Baca Selengkapnya</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form>
+      <div class="mb-3 comment">
+        <label for="exampleInputEmail1" class="form-label">Nama</label>
+        <input
+          type="nama"
+          class="form-control"
+          id="examplenama"
+          aria-describedby="emailHelp"
+        />
+        <div id="emailHelp" class="form-text">
+          We'll never share your email with anyone else.
+        </div>
+      </div>
+      <div class="mb-3 comment">
+        <label for="exampleInputPassword1" class="form-label">Komentar</label>
+        <input
+          type="text"
+          class="form-control"
+          id="examplecoment"
+        />
+      </div>
+      <div class="mb-3 form-check comment">
+      <button type="submit" class="btn btn-primary">Kirim</button>
+    </form>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
